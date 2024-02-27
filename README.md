@@ -1,3 +1,11 @@
+# User Comments Table 
+
+This project get Userdetais from Typicode- Jsonplace holder and shows the in a table. 
+Each user row is equipped with a "View" Button
+
+On clicking the view button, second table appears in the same page with all the comments reated to te button
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
