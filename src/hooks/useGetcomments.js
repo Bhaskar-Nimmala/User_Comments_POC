@@ -6,12 +6,15 @@ const useGetcomments = (userId) => {
     const [comments, setComments] = useState([]);
 
     useEffect(() => {
-        (async () => {
-            const data = await axios.get('https://jsonplaceholder.typicode.com/comments?postId=' + userId);
-            setComments(data.data);
+        if (userId) {
+            (async () => {
+                const data = await axios.get('https://jsonplaceholder.typicode.com/comments?postId=' + userId);
+                setComments(data.data);
 
-        })()
+            })()
+        }
     }, [userId]);
+
     return comments;
 }
 

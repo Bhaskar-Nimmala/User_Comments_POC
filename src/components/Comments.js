@@ -18,7 +18,7 @@ const Comments = ({ userId }) => {
                     <td>{comment.postId}</td>
                     <td>{comment.id}</td>
                     <td>{comment.body}</td>
-                </tr>) : "Please click on the view button to view comments."}
+                </tr>) : <tr><td colSpan={3}>Please click on the view button to view comments.</td></tr>}
             </tbody>
         </table>
     </div>)

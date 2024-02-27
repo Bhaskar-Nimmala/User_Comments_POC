@@ -6,7 +6,6 @@ import Comments from './components/Comments';
 function App() {
   const [userId, setUserId] = useState('');
   const fetchId = (id) => {
-    console.log("ID", id)
     setUserId(id);
   }
   return (

@@ -5,6 +5,8 @@ Each user row is equipped with a "View" Button
 
 On clicking the view button, second table appears in the same page with all the comments reated to te button
 
+![alt text](image.png)
+![alt text](image-1.png)
 
 # Getting Started with Create React App
 
